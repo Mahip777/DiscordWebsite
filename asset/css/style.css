@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothik;
+}
+ul{
+    float: center;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothik;
+    box-sizing: border-box;
+}
+ul{
+    float: none;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+   
+}
+ul li a:hover {
+    text-decoration: underline;
+  }
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    padding-left: 250px;
+}
+.login {
+    float: right;
+    margin-right: 250px;
+    width: 50px;
+    margin-top: 18px;
+    border-radius: 25px;
+    height: 30px;
+}
+.login:hover{
+    color: #3944BC;
+}
+.leftImage{
+    float: left;
+}
+.leftImage img{
+    float: left;
+    width: 400px;
+    height: 400px;
+    padding-top: 120px;
+    position: absolute;
+    left: 0px;
+}
+.rightImage img{
+    float: right;
+    width: 400px;
+    height: 400px;
+    padding-top: 115px;
+    position: absolute;
+    right: 0px;
+}
+.paragraph p{
+    font-size: 50px;
+    padding-top: 150px;
+    padding-left: 650px
+}
+.paragraph2{
+    padding-right: 420px;
+}
+
+.paragraph2 p{
+    font-size: 25px;
+    padding-top: 55px;
+    padding-left: 410px;
+    text-align: center;
+    
+}
+.DnButton{
+    width: 150px;
+    margin-top: 15px;
+    height: 40px;
+    font-family: revert;
+    border-radius: 25px;
+    margin-left: 650px;
+}
+.OpButton{
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: revert;
+    border-radius: 25px;
+    background: black;
+    color: white;
+}
+
+.imageOne img{
+    width: 600px;
+    height: 500px;
+    padding-top: 200px;
+    padding-left: 300px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.column h1{
+    font-size: 50px;
+    padding-top: 90px;
+    padding-right: 350px;
+}
+.column p{
+    width: 100%;
+    padding-right: 350px;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 10px;
+}
+.newDiv h1{
+    padding-left: 450px;
+    font-size: 60px;
+    padding-top: 250px;
+}
+.newDiv p{
+    padding-left: 250px;
+    font-size: 25px;
+    padding-right: 225px;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 20px;
+}
+
+.newDiv img{
+    width: 100%;
+    padding-top: 5%;
+}
+.belowButton{
+    margin-top: 15px;
+    font-family: revert;
+    border-radius: 25px;
+    margin-left: 650px;
+    background: #838EDE !important;
+    color: white !important;
+    height: 50px !important;
+    width: 200px !important;
+    font-size: 20px !important;
+}
+.list dt{
+    color:blue;
+}
+.list dd:hover{
+    text-decoration: underline;
+}
